@@ -1,0 +1,104 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  /* border: 1px solid black; */
+  width: 20rem;
+  min-height: 20rem;
+  margin: 5rem auto;
+  color: white;
+  box-shadow: 1px -1px 16px -7px rgba(0, 0, 0, 0.75);
+}
+
+.subheading {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 0.5rem;
+}
+
+.display-todo {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.display-todo li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem 0 1rem;
+}
+
+.list-items {
+  background: white;
+}
+
+.todoInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.inputlabel {
+  color: white;
+  margin-top: 1rem;
+  margin-right: 58%;
+}
+
+#todo {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 0.1px solid white;
+}
+#todo:focus {
+  outline: none;
+  border: none;
+}
+
+#editTodo {
+  border: 0.1px solid white;
+}
+
+#editTodo:focus {
+  outline: none;
+  border: none;
+}
+
+.addtodo {
+  padding: 0.5rem;
+  border: 0.1px solid white;
+  background: transparent;
+  color: white;
+  font-size: 12px;
+  margin-bottom: 0.5rem;
+}
+
+.addtodo:focus {
+  outline: none;
+}
+
+.edit p {
+  margin: 0;
+}
+
+.todoBtn {
+  background: transparent;
+  border: 0.5px solid white;
+  outline: none;
+  color: white;
+}
+
+#todoItem {
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.headName {
+  padding-top: 1rem;
+}
